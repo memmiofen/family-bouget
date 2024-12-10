@@ -1,0 +1,128 @@
+.pending-requests-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    direction: rtl;
+}
+
+.error-message {
+    color: #e74c3c;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fde8e7;
+    border-radius: 4px;
+}
+
+.no-requests {
+    text-align: center;
+    color: #666;
+    margin: 20px 0;
+}
+
+.request-card {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.request-card:hover {
+    transform: translateY(-2px);
+}
+
+.category-badge {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.8em;
+    background-color: #e8f5e9;
+    color: #2e7d32;
+    margin-right: 8px;
+}
+
+.request-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.amount {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.description {
+    margin: 10px 0;
+    color: #666;
+}
+
+.date {
+    font-size: 0.9em;
+    color: #888;
+}
+
+.actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.approve-button,
+.reject-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.approve-button {
+    background-color: #27ae60;
+    color: white;
+}
+
+.reject-button {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+}
+
+.modal-content select,
+.modal-content textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+
+

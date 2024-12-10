@@ -1,0 +1,28 @@
+.expense-history-container {
+    padding: 20px;
+}
+
+.back-button {
+    margin-bottom: 15px;
+    padding: 5px 10px;
+}
+
+.filter-sort-container {
+    margin-bottom: 15px;
+}
+
+.expenses-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.expenses-table th, .expenses-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.charts-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}

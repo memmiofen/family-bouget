@@ -1,0 +1,114 @@
+.fixed-expenses-dashboard {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.fixed-expenses-dashboard .dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.dashboard-header {
+  margin-bottom: 20px;
+}
+
+.dashboard-header h3 {
+  font-size: 1.2rem;
+  color: #334155;
+  margin: 0 0 10px 0;
+}
+
+.fixed-expenses-dashboard h3 {
+  margin: 0;
+  color: #2c3e50;
+  font-size: 1.2rem;
+}
+
+.fixed-expenses-dashboard .total-amount {
+  font-weight: bold;
+  color: #3498db;
+}
+
+.total-amount {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.fixed-expenses-dashboard .expenses-list {
+  overflow-y: auto;
+  flex-grow: 1;
+}
+
+.fixed-expenses-dashboard .expense-item {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.2s;
+}
+
+.fixed-expenses-dashboard .expense-item:hover {
+  background-color: #f8f9fa;
+}
+
+.fixed-expenses-dashboard .expense-details {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.fixed-expenses-dashboard .category {
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+.fixed-expenses-dashboard .amount {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.fixed-expenses-dashboard .due-date {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+.fixed-expenses-dashboard .due-date svg {
+  color: #3498db;
+}
+
+.pie-chart-container {
+  height: calc(100% - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Custom tooltip styles */
+.recharts-tooltip-wrapper {
+  direction: rtl;
+}
+
+.recharts-default-tooltip {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 6px !important;
+  padding: 10px !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+.recharts-tooltip-item {
+  color: #334155 !important;
+  font-size: 0.875rem !important;
+  padding: 4px 0 !important;
+}
